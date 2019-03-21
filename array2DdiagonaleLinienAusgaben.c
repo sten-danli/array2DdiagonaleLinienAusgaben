@@ -21,4 +21,14 @@ int main() {
 		}
 		putchar(10);
 	}
+
+	for (int i = 0; i < 4; i++)
+	{
+		int t = 3 - i;
+		while (t--)
+		{
+			printf("  ");
+		}
+		printf("%d\n", a[i][3 - i]);
+	}
 }
